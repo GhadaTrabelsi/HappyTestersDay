@@ -39,7 +39,7 @@ public class TestersDateBugDrawer {
 
             // Attendre que la page soit complètement chargée
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.id("bugCanvas")));
+            wait.until(ExpectedConditions.presenceOfElementLocated(Byid("bugCanvas")));
 
             System.out.println(" Page chargée avec succès !");
 
@@ -50,7 +50,7 @@ public class TestersDateBugDrawer {
             celebrateTestersDay(driver);
 
             // Garder la fenêtre ouverte
-            System.out.println("🐛 Bug dessiné avec succès pour le Testers Day ! 🎉");
+            System.out.println("🐛 Bug dessiné avec succès pour le Testers Day ! 🎉     ");
             System.out.println("Regardez la fenêtre Chrome pour voir votre bug !");
             System.out.println("Appuyez sur Entrée pour fermer...");
             System.in.read();
