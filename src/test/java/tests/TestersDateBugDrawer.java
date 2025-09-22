@@ -39,7 +39,7 @@ public class TestersDateBugDrawer {
 
             // Attendre que la page soit complètement chargée
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.id("bugCanvas")));
+            wait.until(ExpectedConditions.presenceOfElementLocated(Byid("bugCanvas)));
 
             System.out.println(" Page chargée avec succès !");
 
