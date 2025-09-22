@@ -50,7 +50,7 @@ public class TestersDateBugDrawer {
             celebrateTestersDay(driver);
 
             // Garder la fenêtre ouverte
-            System.out.println("🐛 Bug dessiné avec succès pour le Testers Day ! 🎉");
+            System.out.println("🐛 Bug dessiné avec succès pour le Testers Day ! 🎉     ");
             System.out.println("Regardez la fenêtre Chrome pour voir votre bug !");
             System.out.println("Appuyez sur Entrée pour fermer...");
             System.in.read();
